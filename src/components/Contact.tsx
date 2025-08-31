@@ -13,9 +13,9 @@ const initialForm: ContactForm = {
 };
 
 const socials = [
-  { name: "GitHub", href: "#", icon: "fab fa-github" },
-  { name: "LinkedIn", href: "#", icon: "fab fa-linkedin" },
-  { name: "Twitter", href: "#", icon: "fab fa-twitter" },
+  { name: "GitHub", href: "https://github.com/hastalavista99", icon: "fab fa-github" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/jackson-githumu/", icon: "fab fa-linkedin" },
+  { name: "Twitter", href: "https://x.com/davidjaxon1", icon: "fab fa-x-twitter" },
 ];
 
 const Contact: React.FC = () => {

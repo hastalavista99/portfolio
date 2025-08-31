@@ -1,6 +1,6 @@
 import React from "react";
 
-const skills = ["React", "Tailwind", "CodeIgniter", "PHP", "MySQL"];
+const skills = ["React", "TypeScript", "Vite","React Router v7", "Tailwind", "CodeIgniter", "PHP", "MySQL", "Payment APIs", "Bulk SMS Integration"];
 
 const About: React.FC = () => {
   return (

@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur z-50 shadow-sm">
       <div className="max-w-5xl mx-auto flex items-center justify-between px-6 py-3">
-        <span className="font-bold text-lg text-gray-900">Portfolio</span>
+        <span className="font-bold text-lg text-gray-900 hidden sm:inline">Jackson Githumu</span>
         <ul className="flex gap-6">
           {NAV_LINKS.map((link) => (
             <li key={link.name}>

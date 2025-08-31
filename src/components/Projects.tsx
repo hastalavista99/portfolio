@@ -5,15 +5,15 @@ const projects: Project[] = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio built with React and TailwindCSS.",
-    techStack: ["React", "Tailwind", "TypeScript"],
-    github: "#",
+    techStack: ["Vite", "React", "Tailwind", "TypeScript"],
+    github: "https://github.com/hastalavista99/portofolio.git",
     demo: "#",
   },
   {
-    title: "Task Manager",
+    title: "Sacco Manager",
     description: "A simple task management app for teams.",
-    techStack: ["React", "PHP", "MySQL"],
-    github: "#",
+    techStack: ["Codeigniter", "PHP", "MySQL", "M-PESA", "Bulk SMS"],
+    github: "https://github.com/hastalavista99/CodeIgniter-Sacco-Portal.git",
     demo: "#",
   },
   {
@@ -66,8 +66,8 @@ const Projects: React.FC = () => {
                 </div>
               </div>
               <div className="flex gap-3 mt-2">
-                <a href={project.github} className="px-4 py-1 bg-gray-800 text-white rounded hover:bg-gray-900 transition text-sm font-medium" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href={project.demo} className="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition text-sm font-medium" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href={project.github} className="px-4 py-1 bg-gray-800 text-white rounded hover:bg-gray-900 transition text-sm font-medium" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github me-2"></i>GitHub</a>
+                <a href={project.demo} className="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition text-sm font-medium" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-laptop me-2"></i>Demo</a>
               </div>
             </div>
           ))}
