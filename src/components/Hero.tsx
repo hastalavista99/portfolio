@@ -25,6 +25,7 @@ const Hero: React.FC = () => {
               href="#projects"
               className="px-6 py-2 border border-blue-700 text-blue-700 rounded-lg font-medium hover:bg-blue-700 hover:text-white transition"
             >
+              <i className="fa-solid fa-table-list me-2"></i>
               View Projects
             </a>
             <a
